@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap" );
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+:root{
+   --main-bg-color:brown;
+   --font1:'Sriracha', cursive;
+   --font2: 'Baloo 2', cursive;
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+.max-width-1{
+    max-width: 80vw;
+}
+.my-2{
+    margin-bottom: 62px;
+    margin-top: 62px;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.btn:hover{
+    color: white;
+    background: rgb(74, 43, 43) ;
+}
+.btn{
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+     margin: 0 2px;
+     cursor: pointer;
+     transition: all 0.3s ease-in-out;
+}
